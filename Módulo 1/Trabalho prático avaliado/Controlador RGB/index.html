@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Controlador RGB - IGTI</title>
+  </head>
+  <body //id="body-rgb">
+    <h1 id="grad">Controlador RGB</h1>
+    <div id="rgb-grid">
+      <div class="rgb-item">(R) Vermelho :</div>
+      <div class="rgb-item">
+        <input class="range" type="range" id="red" min="0" max="255" />
+      </div>
+      <div class="rgb-item">
+        <input type="text" disabled id="red-value" />
+      </div>
+      <div class="rgb-item">(G) Verde :</div>
+      <div class="rgb-item">
+        <input class="range" type="range" id="green" min="0" max="255" />
+      </div>
+      <div class="rgb-item">
+        <input type="text" disabled id="green-value" />
+      </div>
+      <div class="rgb-item">(B) Azul :</div>
+      <div class="rgb-item">
+        <input class="range" type="range" id="blue" min="0" max="255" />
+      </div>
+      <div class="rgb-item">
+        <input type="text" disabled id="blue-value" />
+      </div>
+      <div class="rgb-item"></div>
+      <div class="rgb-item">
+        <div id="block-rgb"></div>
+      </div>
+    </div>
+    <footer>
+      <h5>Criado por Davi Ribeiro</h5>
+      <script src="./js/script.js"></script>
+    </footer>
+  </body>
+</html>

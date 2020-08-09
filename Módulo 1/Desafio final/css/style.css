@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(9, 175, 162);
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: var(--primary);
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+nav > p {
+    font-size: 30px;
+    font-weight: bold;
+}
+main {
+    padding: 0 20px;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px 0;
+}
+.d-flex {
+    display: flex;
+    margin: 20px;
+}
+.d-flex div {
+    margin: 20px;
+}
+.d-flex-1 {
+    flex: 1;
+}
+.grow {
+    flex-grow: 1;
+}
+.shrink {
+    flex-shrink: 1;
+}
+.text-center {
+    text-align: center;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    height: 40px;
+    text-transform: uppercase;
+}
+.bg-primary {
+    background-color: var(--primary);
+    color: white;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    color: black;
+    border-bottom: 1px solid #ccc;
+}
+input:focus {
+    outline: none;
+    border-bottom: 1px solid var(--primary);
+}
+
+.user-counter {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.users {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.user-thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin-right: 10px;
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.statistics {
+    list-style: none;
+}
+.statistics li {
+    margin: 10px 0;
+}

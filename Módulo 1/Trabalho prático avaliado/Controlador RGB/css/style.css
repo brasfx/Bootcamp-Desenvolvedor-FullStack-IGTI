@@ -1,0 +1,48 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url('https://i.gifer.com/OCOp.gif');
+}
+h5 {
+  font-family: 'Roboto';
+  text-align: center;
+  color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+h1:hover {
+  color: aqua;
+  transition-delay: 0.3s;
+}
+#grad {
+  background-image: url('https://i.gifer.com/OCOp.gif');
+  margin-top: auto;
+  padding-top: 30px;
+  height: 150px;
+}
+
+#rgb-grid {
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  width: 100%;
+  max-width: 580px;
+  margin-left: 430px;
+  display: grid;
+  grid-template-columns: 0.3fr 0.8fr 0.2fr;
+}
+.rgb-item {
+  padding: 10px;
+}
+.rgb-item input {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+#block-rgb {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
